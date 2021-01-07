@@ -43,10 +43,10 @@
 #define OPENBOT DIY
 
 // Enable/Disable voltage divider (1,0)
-#define HAS_VOLTAGE_DIVIDER 0
+#define HAS_VOLTAGE_DIVIDER 1
 
 // Enable/Disable indicators (1,0)
-#define HAS_INDICATORS 0
+#define HAS_INDICATORS 1
 
 // Enable/Disable speed sensors (1,0)
 #define HAS_SPEED_SENSORS 1
@@ -66,7 +66,7 @@
 // - the speed will be reduced if an obstacle is detected by the sonar sensor
 // - the car will turn, if an obstacle is detected within STOP_THRESHOLD
 // WARNING: If the sonar sensor is not setup, the car will go full speed forward!
-#define NO_PHONE_MODE 1
+#define NO_PHONE_MODE 0
 
 //------------------------------------------------------//
 // PINOUT
